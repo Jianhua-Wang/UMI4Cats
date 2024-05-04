@@ -124,7 +124,7 @@ plotUMI4C <- function(umi4c,
     legends_plot <- cowplot::plot_grid(plotlist = legends, nrow = 1, align = "h")
 
     ## Remove legends from plot
-    plot_list <- formatPlotsUMI4C(plot_list = plot_list, font_size = font_size)
+    # plot_list <- formatPlotsUMI4C(plot_list = plot_list, font_size = font_size)
 
     ## Plot main
     main_plot <- cowplot::plot_grid(
